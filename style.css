@@ -1,4 +1,3 @@
-/* Correção do código CSS */
 :root {
   --cor-de-fundo: #161618;
   --verde: #6FFF57;
@@ -14,7 +13,6 @@ body {
   font-family: 'Chakra Petch', sans-serif;
 }
 
-/* Estilos para .conteudo-principal */
 .conteudo-principal {
   display: flex;
   flex-direction: column;
@@ -25,7 +23,6 @@ body {
   margin: 0 auto;
 }
 
-/* Estilos para .titulo-principal */
 .titulo-principal {
   text-align: left;
   width: 100%;
@@ -36,7 +33,6 @@ body {
   color: var(--verde);
 }
 
-/* Estilos para .botao */
 .botao {
   font-family: "Chakra Petch", sans-serif;
   background-color: var(--botao-inativo);
@@ -53,7 +49,6 @@ body {
   border-top: none;
 }
 
-/* Estilos para .botoes */
 .botoes {
   display: block;
 }
@@ -78,20 +73,17 @@ body {
   }
 }
 
-/* Estilos para .ativo */
 .ativo {
   background-color: var(--botao-ativo);
   border-bottom: 4px solid var(--verde);
 }
 
-/* Estilos para .abas-textos */
 .abas-textos {
   background-color: var(--texto-fundo);
   padding: 40px;
   border-radius: 0 0 40px 40px;
 }
 
-/* Estilos para .aba-conteudo */
 .aba-conteudo {
   display: none;
 }
@@ -100,13 +92,11 @@ body {
   display: block;
 }
 
-/* Estilos para .aba-conteudo-titulo-principal */
 .aba-conteudo-titulo-principal {
   font-size: 28px;
   text-align: center;
 }
 
-/* Estilos para .aba-conteudo-titulo-secundario */
 .aba-conteudo-titulo-secundario {
   text-align: center;
   color: var(--verde);
